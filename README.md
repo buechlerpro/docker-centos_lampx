@@ -14,10 +14,10 @@ As well image processing (GraphicsMagick/ImageMagick) isn't installed yet and th
 Installation
 ------------
 
-1. Pull the image: docker pull buepro/centos_lampx:initial
+1. Pull the image: docker pull buepro/centos_lampx
 2. Create container:
 
-   `docker run --name lampx -i -t -v E:/path/to/doc/root:/var/www/html -p 9999:80 centos_lampx:initial /bin/bash`
+   `docker run --name lampx -i -t -v E:/path/to/doc/root:/var/www/html -p 9999:80 centos_lampx /bin/bash`
    
 3. Run init script: `/etc/initcontainer`
 4. Place code in host directory (E:/path/to/doc/root)
