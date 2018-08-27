@@ -17,7 +17,7 @@ Installation
 1. Pull the image:  
    `docker pull buepro/centos_lampx`
 2. Create container:  
-   `docker run --name lampx -i -t -v E:/path/to/doc/root:/var/www/html -p 9999:80 centos_lampx /bin/bash`
+   `docker run --name lampx -i -t -v E:/path/to/doc/root:/var/www/html -p 9999:80 buepro/centos_lampx /bin/bash`
    
 3. Run init script:  
    `/etc/initcontainer`

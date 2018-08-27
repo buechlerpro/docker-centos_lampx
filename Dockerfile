@@ -1,2 +1,2 @@
-FROM centos_lampx
+FROM buepro/centos_lampx
 CMD /etc/initcontainer
