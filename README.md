@@ -40,3 +40,13 @@ To create an image providing an initialized server follow these steps:
    ``-v E:/path/to/typo3/srcs:/var/www/typo3_srcs ` ``  
    `-p 9999:80 centos_lampx_run`
    
+DB credentials
+--------------
+
+Item | Value
+---|---
+Available | Manually configured MySQL TCP/IP connection
+Username | root
+Password (not used) | 
+Host | localhost
+Port | 3306
